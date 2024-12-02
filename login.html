@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF -8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login for Html Css</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="https://kit.fontawesome.com/91622b084a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="login-form">
+        <h1>Login</h1>
+        <div class="container">
+            <div id="modal" class="modal-overlay">
+                <div class="modal">
+                    <div class="modal-header"><i class="fa-solid fa-rotate"></i></div>
+                    <div class="modal-header">GAGAL!</div>
+                    <div class="modal-body">Pastikan semua kolom terisi</div>
+                    <button class="modal-close" id="closeModalBtn">Coba lagi</button>
+                </div>
+            </div>
+            <div class="main">
+                <div class="content" style="background-color: gray; justify-content: center;">
+                    <br>
+                    <br>
+                    <br>
+                    <h2>Log In</h2>
+                    <form action="javascript:void(0);" method="post" onsubmit="validateFormLogin(event)">
+                        <input type="email" name="" placeholder="Email" autofocus="" id="gmail">
+                        <input type="password" name="" placeholder="Password Account" autofocus="" id="password">
+
+                        <button class="btn" type="submit">
+                            Submit
+                        </button>
+                    </form>
+                    <p class="forgot password">Forgot Password? <a href="signup.html">register</a></p>
+                </div>
+                <div class="form-img">
+                    <img src="PAS.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="profile.js"></script>
+</body>
+
+</html>
